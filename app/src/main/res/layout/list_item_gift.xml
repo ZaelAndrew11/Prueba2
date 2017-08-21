@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_white_underline_gray"
+    android:id="@+id/rowGift"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/fab_margin">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:background="@drawable/rounded_image"
+        android:layout_height="40dp"
+        android:layout_marginRight="@dimen/fab_margin_right"
+        android:src="@mipmap/ic_card_giftcard_white_24dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:textSize="@dimen/title_size"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nombre"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/priorityTv"
+            android:textSize="@dimen/body_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/priceTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/title_size"
+            android:textColor="@color/colorPrimary"
+            android:text="50.000" />
+
+        <TextView
+            android:text="Presupuesto"
+            android:textStyle="italic"
+            android:textSize="@dimen/caption_size"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Gifts</string>
+    <string name="action_bought">My Gifts - Comprados</string>
+    <string name="action_pending">My Gifts - Pendientes</string>
+
+    <string name="name_person">Ingrese nombre de la persona a regalar</string>
+    <string name="priority_gift">Prioridad del Regalo</string>
+    <string name="budget_gift">Presupuesto del Regalo</string>
+    <string name="description_gift">Ingrese los posibles regalos</string>
+    <string name="content_title_description">Posibles regalos</string>
+
+    <string name="gift_move_buy">Regalo movido a comprados</string>
+    <string name="gift_move_pendings">Regalo movido a pendientes</string>
+</resources>

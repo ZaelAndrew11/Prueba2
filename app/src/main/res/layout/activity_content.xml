@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cl.aguzman.prueba2.ContentActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/nameContentTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/headline_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@color/colorTextWhite"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content_title_description"
+            android:textSize="@dimen/title_size"
+            android:padding="@dimen/fab_margin"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/descriptionContentTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/fab_margin"
+            android:layout_marginBottom="@dimen/margin_content_aareas"
+            android:textSize="@dimen/body_size" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/fab_margin"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/priceContenttv"
+                        android:textColor="@color/colorTextWhite"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/headline_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:text="Presupuesto"
+                        android:gravity="center"
+                        android:textColor="@color/colorTextWhite"
+                        android:textStyle="italic"
+                        android:textSize="@dimen/caption_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@color/colorAccent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:padding="@dimen/fab_margin"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/priorityContentTv"
+                        android:textColor="@color/colorTextWhite"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:textSize="@dimen/headline_size"
+                        android:layout_height="wrap_content"
+                        android:gravity="center" />
+                    <TextView
+                        android:text="Prioridad"
+                        android:gravity="center"
+                        android:textColor="@color/colorTextWhite"
+                        android:textStyle="italic"
+                        android:textSize="@dimen/caption_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
